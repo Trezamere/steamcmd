@@ -21,3 +21,8 @@ This can prove useful if you are just looking to test a certain game server inst
 The image's default user is `steam`, any command executed in a higher layer `Dockerfile` will therefor be executed as that user.
 
 The `steamcmd.sh` can be found at the following path: `/home/steam/steamcmd`
+
+# Links
+
+https://developer.valvesoftware.com/wiki/SteamCMD
+https://cloud.docker.com/repository/docker/trezamere/steamcmd
