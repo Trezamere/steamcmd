@@ -9,8 +9,8 @@ This image can be used as a base image for Steam-based dedicated servers.
 Whilst it's recommended to use this image as a base image of other game servers, you can also run it in an interactive shell using the following command:
 
 ```
-$ docker run -it --name=steamcmd cm2network/steamcmd bash
-$ ./home/steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir /home/steam/squad-dedicated \
+$ docker run -it --name=steamcmd trezamere/steamcmd bash
+$ ./home/steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir /home/steam/dedicated-server \
     +app_update 403240 +quit
 ```
 
