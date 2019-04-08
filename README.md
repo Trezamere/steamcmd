@@ -24,5 +24,5 @@ The `steamcmd.sh` can be found at the following path: `/home/steam/steamcmd`
 
 # Links
 
-https://developer.valvesoftware.com/wiki/SteamCMD
-https://cloud.docker.com/repository/docker/trezamere/steamcmd
+* https://developer.valvesoftware.com/wiki/SteamCMD
+* https://cloud.docker.com/repository/docker/trezamere/steamcmd
