@@ -26,8 +26,9 @@ RUN set -x \
         && apt-get autoremove -y \
         && rm -rf /var/lib/{apt,dpkg,cache,log}/
 
+ENV PATH="/home/steam/Steam:${PATH}"
 WORKDIR /home/steam
-CMD [ "/home/steam/Steam/steamcmd.sh" ]
+CMD [ "steamcmd.sh" ]
 
 # Switch to user steam
 USER steam
